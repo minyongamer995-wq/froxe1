@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Header boshlanish */
+
+
+
+/* Navbar style */
+.navbar {
+    display: flex;
+    top: 16px;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+    width: 90%;
+    margin-left: 80px;
+    margin-top: 20px;
+    background-color: rgba(59, 59, 59, 0.3);
+    backdrop-filter: blur(10px);
+    height: 70px;
+    border: 1px solid #13131667;
+    border-radius: 20px;
+}
+
+.header_box {
+    margin-left: 50px;
+}
+
+.bolimlar {
+    text-decoration: none;
+    color: #959aa0;
+    font-family: Rubik;
+    transition: 0.3s linear;
+}
+
+.bolimlar:hover {
+    color: #fff;
+    transition: 0.3s linear;
+}
+
+.bolimlar1 {
+    text-decoration: none;
+    color: #000000;
+    background-color: rgb(255, 0, 0);
+    width: 90px;
+    border-radius: 13px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    transition: 0.3s linear;
+}
+
+.bolimlar1:hover {
+    transition: 0.3s linear;
+    color: #fff;
+    transform: translateY(-5px)
+}
+
+.design {
+    color: #959aa0;
+    font-family: Inter;
+}
+
+.boshlanish {
+    color: #959aa0;
+    font-family: Inter;
+}
+
+.portfolio {
+    margin-left: 10px;
+}
+
+.navbar-bolimlar {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-left: 620px;
+}
+
+/* Navbar tugash */
+
+/* Main boshlanish */
+.malumotnoma {
+    width: 749px;
+    margin-top: 200px;
+    margin-left: 430px;
+}
+
+.sayt-haqida {
+    font-family: Rubik;
+    color: #ff0000;
+    font-size: 38px;
+    margin-left: 90px;
+}
+
+.ab {
+    margin-left: 10px;
+}
+
+.biz-haqimizda {
+    text-align: center;
+    color: #fff;
+    font-family: Rubik;
+    margin-top: 30px;
+}
+
+/* Portfolio boshlanish */
+
+.prt-video {
+    width: 80%;
+    height: 1530px;
+    background-color: #0b0b0e;
+    border-radius: 30px;
+    margin-left: 170px;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #ffffff0f;
+}
+
+.cards-video {
+    width: 340px;
+    height: 560px;
+    margin-top: 5px;
+}
+
+video {
+    width: 100%;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.video-toplam {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-left: 84px;
+    margin-top: -120px;
+}
+.video--toplam{
+    font-family: Rubik;
+    color: #fff;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+.ortga{
+    color: #fff;
+    position: absolute;
+    font-family: Rubik;
+    text-decoration: none;
+    font-size: 20px;
+    top: 150px;
+    margin-left: 90px;
+}
+
+/* Portfolio tugash */

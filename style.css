@@ -1,0 +1,541 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+}
+html{
+   scroll-behavior: smooth;
+}
+
+/* Header boshlanish */
+
+
+
+/* Navbar style */
+ .navbar{
+    display: flex;
+    top: 16px;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+    width: 90%;
+    margin-left: 80px;
+    margin-top: 20px;
+    background-color: rgba(59, 59, 59, 0.3);
+    backdrop-filter: blur(10px);
+    height: 70px;
+    border: 1px solid #13131667;
+    border-radius: 20px ;
+ }
+ .header_box{
+    margin-left: 50px;
+ }
+ .bolimlar{
+    text-decoration: none;
+    color: #959aa0;
+    font-family: Rubik;
+    transition: 0.3s linear;
+ }
+ .bolimlar:hover{
+    color: #fff;
+    transition: 0.3s linear;
+ }
+ .bolimlar1{
+    text-decoration: none;
+    color: #000000;
+    background-color: rgb(255, 0, 0);
+    width: 90px;
+    border-radius: 13px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    transition: 0.3s linear;
+ }
+ .bolimlar1:hover{
+    transition: 0.3s linear;
+    color: #fff;
+    transform: translateY(-5px)
+ }
+ .design{
+    color: #959aa0;
+    font-family: Inter;
+ }
+ .boshlanish{
+    color: #959aa0;
+    font-family: Inter;
+ }
+ 
+ .portfolio{
+    margin-left: 10px;
+ }
+ .navbar-bolimlar{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-left: 570px;
+ }
+/* Navbar tugash */
+
+/* Main boshlanish */
+.malumotnoma{
+    width: 749px;
+    margin-top: 200px;
+    margin-left: 430px;
+}
+.sayt-haqida{
+    font-family: Rubik;
+    color: #ff0000;
+    font-size: 38px;
+}
+.ab{
+    margin-left: 10px;
+}
+.biz-haqimizda{
+    text-align: center;
+    color: #fff;
+    font-family: Rubik;
+    margin-top: 30px;
+}
+/* Xizmatlarimiz */
+.xizmatlar{
+   width: 85%;
+   height: 785px;
+   background-color: #0b0b0e;
+   border-radius: 30px;
+   margin-left: 110px;
+   margin-top: 100px;
+   border: 1px solid #ffffff0f;
+}
+.ximatlar-boshlanish{
+   color: #ffffff;
+   font-family: Rubik;
+   text-align: center;
+   margin-top: 20px;
+}
+.xizmatlar_box{
+   width: 95%;
+   margin-top: 45px;
+   margin-left: 55px;
+   display: flex;
+   gap: 30px;
+   flex-wrap: wrap;
+}
+.cards{
+   width: 370px;
+   border-radius: 30px;
+   height: 270px;
+   background-color: #ffffff0d;
+   border: 1px solid #ffffff14;
+   transition: 0.3s linear;
+}
+.cards:hover{
+   transform: scale(1.04) translateY(-10px);
+   transition: 0.2s linear;
+   border: 1px solid rgba(255, 0, 0, 0.308);
+   box-shadow: 1px 20px 50px rgba(240, 0, 0, 0.253);
+}
+.asosiy-text{
+   color: #fff;
+   font-family: Rubik;
+   font-size: 23px;
+}
+.icons{
+   width: 34px;
+    filter: brightness(5) invert(1);
+}
+.icon-uchun{
+   margin: auto;
+   margin-top: 35px;
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+   background-color: rgb(122, 0, 0);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.texts{
+   margin: auto;
+   margin-top: 20px;
+   width: 290px;
+   text-align: center;
+}
+.malumotlar{
+   color: #dfd1d1;
+   font-family: Rubik;
+   margin-top: 13px;
+}
+/* Xizmatlar tugash */
+
+/* Portfolio */
+.main_box2{
+   width: 85%;
+   height: 1200px;
+   background-color: #0b0b0e;
+   border-radius: 30px;
+   margin-left: 110px;
+   margin-top: 100px;
+   border: 1px solid #ffffff0f;
+}
+.prt{
+   width: 100%;
+   height: 400px;
+   border-radius: 20px;
+   transition: 0.3s linear;
+}
+.cards-portfolio1:hover .prt{
+   transform: scale(1.1);
+   filter: blur(3px) brightness(0.7);
+}
+.cards-portfolio:hover .prt{
+   transform: scale(1.1);
+   filter: blur(3px) brightness(0.7);
+}
+.prt-for{
+   color: #fff;
+   font-family: Rubik;
+   margin-left: 560px;
+   margin-top: 50px;
+   height: 40px;
+}
+.cards-portfolio1{
+   width: 300px;
+   margin-left: 10px;
+   border-radius: 20px;
+   height: 400px;
+   overflow: hidden;
+   background-color: grey;
+   transition: 0.3s linear;
+}
+.cards-portfolio{
+   overflow: hidden;
+   width: 300px;
+   margin-left: 10px;
+   border-radius: 20px;
+   height: 400px;
+   background-color: grey;
+}
+.for-prt{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 50px;
+   width: 85%;
+   height: 900px;
+   margin-left: 110px;
+   margin-top: 90px;
+}
+.prt-turkumi{
+   color: #fff;
+   position: absolute;
+   z-index: 20;
+   opacity: 0;
+   font-size: 18px;
+   font-family: Rubik;
+   margin-top: 310px;
+   margin-left: 73px;
+    transition: 0.3s linear;
+}
+.prt-turkumi2{
+   color: #fff;
+   position: absolute;
+   z-index: 20;
+   opacity: 0;
+   font-size: 18px;
+   font-family: Rubik;
+   margin-top: 310px;
+   margin-left: 40px;
+    transition: 0.3s linear;
+}
+.prt-turkumi3{
+   color: #fff;
+   position: absolute;
+   z-index: 20;
+   opacity: 0;
+   font-size: 18px;
+   font-family: Rubik;
+   margin-top: 310px;
+   margin-left: 48px;
+    transition: 0.3s linear;
+}
+.cards-portfolio1:hover .prt-turkumi2{
+   opacity: 1;
+   transition: 0.4s linear;
+   transform: translateY(-20px);
+}
+.cards-portfolio:hover .prt-turkumi3{
+   opacity: 1;
+   transition: 0.4s linear;
+   transform: translateY(-20px);
+}
+.cards-portfolio1:hover .prt-turkumi{
+   opacity: 1;
+   transition: 0.4s linear;
+   transform: translateY(-20px);
+}
+.cards-portfolio:hover .prt-turkumi{
+   opacity: 1;
+   transition: 0.4s linear;
+   transform: translateY(-20px);
+}
+.new{
+   color: #d3d3d3;
+   position: absolute;
+   z-index: 20;
+   opacity: 0;
+   font-size: 19px;
+   font-family: Rubik;
+   margin-top: 340px;
+   margin-left: 80px;
+    transition: 0.3s linear;
+}
+.cards-portfolio1:hover .new{
+   opacity: 1;
+   transition: 0.4s linear;
+   transform: translateY(-20px);
+}
+.cards-portfolio:hover .new{
+   opacity: 1;
+   transition: 0.4s linear;
+   transform: translateY(-20px);
+}
+
+
+/* Buyurtma berish */
+.main_box3{
+   width: 85%;
+   height: 1050px;
+   background-color: #0b0b0e;
+   border-radius: 30px;
+   margin-left: 110px;
+   margin-top: 100px;
+   display: flex;
+   flex-wrap: wrap;
+   border: 1px solid #ffffff0f;
+}
+.buyurtma{
+   color: #fff;
+   font-family: Rubik;
+   margin-top: 55px;
+   height: 40px;
+   margin-left: 64px;
+}
+.box3_cards{
+   width: 90%;
+   height: 900px;  
+   margin-left: 60px;
+   margin-bottom: 790px;
+   display: flex;
+   gap: 30px;
+   flex-wrap: wrap;
+   margin-top: 20px;
+}
+.narxlarimiz{
+   width: 540px;
+   height: 95px;
+   background-color: #ffffff08;
+   border: 1px solid #ffffff0f;
+   border-radius: 20px;
+   display: flex;
+   align-items: center;
+   transition: 0.3s linear;
+}
+.wrapper-turkum{
+   color: #fff;
+   font-family: Rubik;
+   margin-left: 26px;
+   font-size: 19px;
+}
+.wrapper-turkum2{
+   color: #ff0000;
+   font-family: Rubik;
+   margin-top: 10px;
+   margin-left: 26px;
+   font-size: 17px;
+}
+.wrapper-turkum11{
+   color: #ff0000;
+   font-family: Rubik;
+   margin-top: 10px;
+   margin-left: -30px;
+   font-size: 17px;
+}
+.wrapper-turkum12{
+   color: #ff0000;
+   font-family: Rubik;
+   margin-top: 10px;
+   margin-left: 40px;
+   font-size: 17px;
+}
+.wrapper-turkum110{
+   color: #ff0000;
+   font-family: Rubik;
+   margin-top: 10px;
+   margin-left: 5px;
+   font-size: 17px;
+}
+.wrapper-turkum3{
+   color: #ff0000;
+   font-family: Rubik;
+   margin-left: 26px;
+   font-size: 25px;
+   margin-left: 240px;
+}
+.wrapper-turkum30{
+   color: #ff0000;
+   font-family: Rubik;
+   margin-left: 26px;
+   font-size: 25px;
+   margin-left: 210px;
+}
+.wrapper-turkum31{
+   color: #ff0000;
+   font-family: Rubik;
+   margin-left: 26px;
+   font-size: 25px;
+   margin-left: 275px;
+}
+.wrapper-turkum34{
+   color: #ff0000;
+   font-family: Rubik;
+   margin-left: 26px;
+   font-size: 25px;
+   margin-left: 285px;
+}
+.wrapper-turkum35{
+   color: #ff0000;
+   font-family: Rubik;
+   margin-left: 26px;
+   font-size: 25px;
+   margin-left: 260px;
+}
+.wrapper-turkum33{
+   color: #ff0000;
+   font-family: Rubik;
+   margin-left: 26px;
+   font-size: 25px;
+   margin-left: 190px;
+}
+.wrapper-turkum32{
+   color: #ff0000;
+   font-family: Rubik;
+   margin-left: 26px;
+   font-size: 25px;
+   margin-left: 250px;
+}
+.wrapper-turkum4{
+   color: #ff0000;
+   font-family: Rubik;
+   margin-left: 26px;
+   font-size: 25px;
+   margin-left: 257px;
+}
+.narxlarimiz:hover{
+   border: 1px solid #ff000088;
+   transition: 0.3s linear;
+   transform: translateY(-5px);
+}
+.narxlarimiz.active{
+   border: 1px solid #ff0000;
+   background-color: #ff00000e;
+}
+
+/* Buyurtma berish tugashi */
+
+/* Sotib olish */
+
+
+
+/* Sotib olish tugash */
+
+/* Umumiy narx */
+
+.ohirgi-narx{
+   color: #fff;
+   font-family: Rubik;
+   text-align: center;
+   font-size: 24px;
+}
+.asosiy--buyurtma{
+   width: 85%;
+   height: 600px;
+   background-color: #0b0b0e;
+   border-radius: 30px;
+   margin-left: 110px;
+   margin-top: 20px;
+   border: 1px solid #ffffff0f;
+}
+.get-summa{
+   width: 410px;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   margin-top: 70px;
+   height: 160px;
+   margin-left: 440px;
+}
+.sotib--olish-uchun{
+   color: #fff;
+   font-family: Rubik;
+   margin-top: 40px;
+   height: 40px;
+   margin-left: 64px;
+}
+.inputs{
+   width: 90%;
+   margin-left: 60px;
+}
+.tel-nomer{
+   color: #fff;
+   font-family: Rubik;
+   margin-top: 27px;
+}
+.tel{
+   background: rgba(255, 255, 255, 0.03);
+   border: 1px solid #fff3;
+   width: 100%;
+   height: 50px;
+   border-radius: 10px;
+   margin-top: 15px;
+   padding-left: 13px;
+   font-size: 17px;
+   outline: none;
+   transition: 0.3s linear;
+   color: #fff;
+}
+.tel:focus{
+   border: 1px solid rgb(255, 0, 0);
+   box-shadow: 0px 0px 5px rgb(255, 0, 0);
+   transition: 0.3s linear;
+}
+.zakas{
+   background-color: #ff7300;
+   border: none;
+   border-radius: 17px;
+   color: #fff;
+   font-family: Rubik;
+   width: 170px;
+   font-size: 17px;
+   height: 50px;
+}
+
+/* Umumiy narx tugashi */
+
+/* A hreflar kodlari */
+
+.video--prt-uchun{
+   text-decoration: none;
+}
+
+/* A hreflar tugashi */
+
+
+/* Portfolio tugash */
+
+
+/* Footer boshlanish */
